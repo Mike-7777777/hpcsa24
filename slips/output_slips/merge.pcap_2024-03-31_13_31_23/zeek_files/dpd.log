@@ -1,0 +1,8 @@
+{"ts":1518611880.005539,"uid":"CFB0Vp2pU67qfT3Clk","id.orig_h":"172.31.64.80","id.orig_p":50379,"id.resp_h":"52.5.92.144","id.resp_p":80,"proto":"tcp","analyzer":"HTTP","failure_reason":"not a http reply line"}
+{"ts":1518612227.998422,"uid":"Ckr9Xc2xCfqrw1r2pc","id.orig_h":"172.31.64.80","id.orig_p":51548,"id.resp_h":"34.233.216.98","id.resp_p":80,"proto":"tcp","analyzer":"HTTP","failure_reason":"not a http reply line"}
+{"ts":1518612228.96038,"uid":"C3iEAL1X6RVKFlae47","id.orig_h":"172.31.64.80","id.orig_p":51544,"id.resp_h":"34.233.216.98","id.resp_p":80,"proto":"tcp","analyzer":"HTTP","failure_reason":"not a http reply line"}
+{"ts":1518612228.994083,"uid":"CwGGxgSTHxhYP3Y","id.orig_h":"172.31.64.80","id.orig_p":51545,"id.resp_h":"34.233.216.98","id.resp_p":80,"proto":"tcp","analyzer":"HTTP","failure_reason":"not a http reply line"}
+{"ts":1518612374.065863,"uid":"CGKPIy4QURjwp52oj7","id.orig_h":"172.31.64.80","id.orig_p":51746,"id.resp_h":"52.5.92.144","id.resp_p":80,"proto":"tcp","analyzer":"HTTP","failure_reason":"not a http reply line"}
+{"ts":1518618467.799288,"uid":"Chh1LM1tV3xGGYhMPj","id.orig_h":"172.31.64.115","id.orig_p":50715,"id.resp_h":"54.82.121.28","id.resp_p":80,"proto":"tcp","analyzer":"HTTP","failure_reason":"not a http reply line"}
+{"ts":1518619155.094659,"uid":"CWzV5G2zBD6tYn30p5","id.orig_h":"172.31.66.62","id.orig_p":50080,"id.resp_h":"34.233.216.98","id.resp_p":80,"proto":"tcp","analyzer":"HTTP","failure_reason":"not a http reply line"}
+{"ts":1518620384.321355,"uid":"CHxezm2XwllrsdqmKl","id.orig_h":"172.31.66.43","id.orig_p":50843,"id.resp_h":"34.210.162.196","id.resp_p":80,"proto":"tcp","analyzer":"HTTP","failure_reason":"not a http reply line"}
