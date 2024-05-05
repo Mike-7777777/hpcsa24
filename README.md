@@ -10,6 +10,28 @@ This repository contains the code, experiments, and related files for the resear
 - **AutoGluon and TIG Stack**: Comparative analysis of ML models using the CIC-IDS2018 dataset.
 - **Report Findings**: Highlighting the importance of network interface throughput, machine learning in IDS, and the need for high-quality datasets.
 
+## Comparison of Network-based IDS
+| Name, Year      | Dataset          | Hardware Needs (100Gbps) | Accessibility          | Scene  | Type          | Filtering                          |
+|-----------------|------------------|--------------------------|------------------------|--------|---------------|-------------------------------------|
+| **ZeekML [Gus19]** | CIC-IDS2017    | 100 CPUs                 | Closed source         | General| Anomaly-based | Custom, double                      |
+| **Pulsar [TFD+19]**| Campus traffic | 8 TAP + 2 SPAN + 17 servers | Open source, free | HPC    | Signature-based | Whitelist                          |
+| **RUAD [MBC+22]** | Campus traffic  | N/A                      | Closed source         | HPC    | Anomaly-based | N/A                               |
+| **Pigasus [Zha21]**| DPDK pktgen   | 1 CPU + 1 FPGA           | Open source, free     | HPC    | Signature-based | Multi-layer, low latency           |
+| **Retina [WGBD22]**| Campus traffic| 8-cores CPU              | Open source, free     | General| Hybrid       | Multi-layer                         |
+| **AutoGluon\*, 2024**| CIC-IDS2018  | N/A                      | Open source, free     | General| Anomaly-based | N/A                                |
+
+## Summary of Network Traffic Datasets
+| Year | Dataset       | Source                     | Attack Types | Size (GB) | Feature Count | Open Source |
+|------|---------------|----------------------------|--------------|-----------|---------------|-------------|
+| 2015 | **UNSW-NB 15 [MS15]** | Simulation (Special Facility) | 9           | 100       | 49            | Yes         |
+| 2017 | **CIC-DIS2017 [SLG18]**| Simulation (Infrastructure)  | 7           | 51        | 80            | Yes         |
+| 2018 | **CIC-DIS2018 [SLG18]**| Simulation (Infrastructure)  | 7           | 450       | 83            | Yes         |
+| 2020 | **MQTT-IoT-IDS2020 [HBB+20]**| Simulation (Special Facility) | 4     | 1.4       | 43            | Yes         |
+| 2022 | **5G-NIDD [SSP+22]** | University (Real Traffic)     | 5           | 3.65      | 25            | Yes         |
+| 2022 | **RUAD [MBC+22]**    | University (Real Traffic)     | Unknown     | Unknown   | 41            | No          |
+| 2023 | **TII-SSRC-23 [HLA23]**| Simulation (Small Devices)   | 4           | 27.5      | 75            | Yes         |
+| 2021 | **NF-UQ-NIDS-v2 [SLP21]**| Integrated                | 21          | 1.8       | 43            | Yes\*       |
+
 ## Experiments
 ### Suricata IDS Plugin
 - **Goal**: Identify performance bottlenecks in the Suricata IDS plugin within HPC environments.
