@@ -26,11 +26,11 @@ This repository contains the code, experiments, and related files for the resear
 
 ## Repository Structure
 hpcsa24/
-├── ag/ # AutoGluon experiments and models
-├── slips/ # Slips IDS evaluation
-├── suricata_plugin/ # Suricata IDS plugin experiments
-├── report/ # Research report and related documents
-└── README.md # This file
+├── ag/                 # AutoGluon experiments and models
+├── slips/              # Slips IDS evaluation
+├── suricata_plugin/    # Suricata IDS plugin experiments
+├── report/             # Research report and related documents
+└── README.md           # This file
 
 ## Getting Started
 ### Prerequisites
