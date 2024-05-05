@@ -72,3 +72,9 @@ hpcsa24/
 This project is licensed under the MIT License - see the LICENSE file for details. 
 If you'd like to update the `README.md` file directly, let me know, and I'll save the changes. &#8203;``【oaicite:0】``&#8203;
 
+### Cite
+
+```
+Sun, Q. (2024). Intrusion Detection in High-Performance Computing. [online] GitHub. Abgerufen am von: https://github.com/Mike-7777777/hpcsa24/ [Zugegriffen 5 Mai 2024]. 
+```
+
